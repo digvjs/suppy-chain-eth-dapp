@@ -1,0 +1,343 @@
+{
+  "contractName": "States",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{},\"notice\":\"States contract\"}},\"settings\":{\"compilationTarget\":{\"/private/var/www/html/blockchain/supply-chain-dapp-new/contracts/States.sol\":\"States\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/private/var/www/html/blockchain/supply-chain-dapp-new/contracts/States.sol\":{\"keccak256\":\"0xdb84d44d650bb50b2fede2653abb1a277a47fe7a0c6b927e60e4492d9ecdfcd8\",\"urls\":[\"bzz-raw://28636904a5eedb195886069906d76467b15431d4d81429f0e69d5c670147fc63\",\"dweb:/ipfs/QmP6JqrEy8Num3FT3eJfxknURN8CjKDFdAAcES6gDbMQLP\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820ae245b0c33c2916b1403aa9e8e7f9f1b2df564f40f65762609abefa24d67918f64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820ae245b0c33c2916b1403aa9e8e7f9f1b2df564f40f65762609abefa24d67918f64736f6c63430005100032",
+  "sourceMap": "95:152:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;95:152:1;;;;;;;",
+  "deployedSourceMap": "95:152:1:-;;;;;",
+  "source": "// SPDX-License-Identifier: None\n\npragma solidity >=0.4.22 <0.8.0;\n\n/**\n * States contract\n */\ncontract States {\n\n    struct State {\n        string title;\n        string description;\n        string createdDate;\n        string createdById;\n    }\n\n}",
+  "sourcePath": "/private/var/www/html/blockchain/supply-chain-dapp-new/contracts/States.sol",
+  "ast": {
+    "absolutePath": "/private/var/www/html/blockchain/supply-chain-dapp-new/contracts/States.sol",
+    "exportedSymbols": {
+      "States": [
+        260
+      ]
+    },
+    "id": 261,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 250,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "34:32:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": "States contract",
+        "fullyImplemented": true,
+        "id": 260,
+        "linearizedBaseContracts": [
+          260
+        ],
+        "name": "States",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "States.State",
+            "id": 259,
+            "members": [
+              {
+                "constant": false,
+                "id": 252,
+                "name": "title",
+                "nodeType": "VariableDeclaration",
+                "scope": 259,
+                "src": "141:12:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 251,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "141:6:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 254,
+                "name": "description",
+                "nodeType": "VariableDeclaration",
+                "scope": 259,
+                "src": "163:18:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 253,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "163:6:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 256,
+                "name": "createdDate",
+                "nodeType": "VariableDeclaration",
+                "scope": 259,
+                "src": "191:18:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 255,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "191:6:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 258,
+                "name": "createdById",
+                "nodeType": "VariableDeclaration",
+                "scope": 259,
+                "src": "219:18:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 257,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "219:6:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "State",
+            "nodeType": "StructDefinition",
+            "scope": 260,
+            "src": "118:126:1",
+            "visibility": "public"
+          }
+        ],
+        "scope": 261,
+        "src": "95:152:1"
+      }
+    ],
+    "src": "34:213:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/private/var/www/html/blockchain/supply-chain-dapp-new/contracts/States.sol",
+    "exportedSymbols": {
+      "States": [
+        260
+      ]
+    },
+    "id": 261,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 250,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "34:32:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": "States contract",
+        "fullyImplemented": true,
+        "id": 260,
+        "linearizedBaseContracts": [
+          260
+        ],
+        "name": "States",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "States.State",
+            "id": 259,
+            "members": [
+              {
+                "constant": false,
+                "id": 252,
+                "name": "title",
+                "nodeType": "VariableDeclaration",
+                "scope": 259,
+                "src": "141:12:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 251,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "141:6:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 254,
+                "name": "description",
+                "nodeType": "VariableDeclaration",
+                "scope": 259,
+                "src": "163:18:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 253,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "163:6:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 256,
+                "name": "createdDate",
+                "nodeType": "VariableDeclaration",
+                "scope": 259,
+                "src": "191:18:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 255,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "191:6:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 258,
+                "name": "createdById",
+                "nodeType": "VariableDeclaration",
+                "scope": 259,
+                "src": "219:18:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 257,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "219:6:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "State",
+            "nodeType": "StructDefinition",
+            "scope": 260,
+            "src": "118:126:1",
+            "visibility": "public"
+          }
+        ],
+        "scope": 261,
+        "src": "95:152:1"
+      }
+    ],
+    "src": "34:213:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.2.3",
+  "updatedAt": "2020-09-01T21:22:28.607Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {},
+    "notice": "States contract"
+  }
+}
